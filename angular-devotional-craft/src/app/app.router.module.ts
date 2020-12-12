@@ -5,11 +5,14 @@ import { SettingWordsComponent } from './home/setting-words/setting-words.compon
 import { ArtworksListComponent } from './home/artworks-list/artworks-list.component';
 import { CardDetailComponent } from './home/card-detail/card-detail.component';
 import { HomeComponent } from './home/home.component';
+import { AddArtworkComponent } from './add-artwork/add-artwork.component';
 
 const AppRoutes: Routes = [
   {path : 'artworks-list', component : ArtworksListComponent},
   {path : 'card-detail', component : CardDetailComponent},
   {path : 'home', component : HomeComponent},
+  {path : 'add-artwork', component : AddArtworkComponent },
+  // {path : '**', component : PageNotFoundComponent },
   {path : '', redirectTo : '/home', pathMatch : 'full'}
 ];
 

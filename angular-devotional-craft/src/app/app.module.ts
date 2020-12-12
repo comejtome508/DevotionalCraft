@@ -15,6 +15,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { AddArtworkComponent } from './add-artwork/add-artwork.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ArtworksListComponent,
     CardDetailComponent,
     HomeComponent,
+    AddArtworkComponent,
   ],
   imports: [
     BrowserModule,

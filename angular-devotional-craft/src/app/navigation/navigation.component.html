@@ -1,12 +1,12 @@
-<p>
+<div>
   <mat-toolbar color="primary">
-    <span>묵상공방</span>
+    <span [routerLink]="['/home']" class="pointer">묵상공방</span>
     <span class="example-spacer"></span>
     <button mat-icon-button class="search-icon" aria-label="button with search icon">
       <mat-icon>search</mat-icon>
     </button>
     <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
-      <span>묵상하기</span>
+      <span [routerLink]="['/add-artwork']">묵상하기</span>
     </button>
   </mat-toolbar>
-</p>
+</div>

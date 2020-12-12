@@ -1,0 +1,13 @@
+<app-navigation></app-navigation>
+<app-setting-words></app-setting-words>
+<input type="text" placeholder="제목을 입력해 주세요.">
+<div class="add-item-button">
+  <img class="rounded-circle" [src]="urllink">
+  <label class="add-button" for="upload-image">이미지 추가</label>
+  <input id="upload-image" type="file" class="" (change)="selectFile($event)">
+  <button type="button" value="텍스트 추가">텍스트 추가</button>
+</div>
+<div>
+  <button type="button">게시</button>
+</div>
+
